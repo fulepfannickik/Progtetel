@@ -34,7 +34,16 @@ namespace Progtetel
 
 
             //Maximum kiválasztás - 2
-
+            int i;
+            int maxi = 0;
+            for (i = 0; i < x.Length; i++)
+            {
+                if (x[i] > x[maxi])
+                {
+                    maxi = i;
+                }
+            }
+            Console.WriteLine($"{maxi + 1}, {x[maxi]}");
             Console.ReadKey();
         }
     }
