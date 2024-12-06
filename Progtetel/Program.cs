@@ -34,7 +34,6 @@ namespace Progtetel
 
 
             //Maximum kiválasztás - 2
-            int i;
             int maxi = 0;
             for (i = 0; i < x.Length; i++)
             {
